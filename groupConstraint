@@ -1,0 +1,12 @@
+-- group Constraint
+ALTER TABLE MatttCandidate ADD CONSTRAINT candidate_salary_ck CHECK(salary BETWEEN 10000 AND 50000);
+
+ALTER TABLE MatttParty MODIFY party_DESC NOT NULL;
+
+ALTER TABLE MatttCandidate DISABLE CONSTRAINT candidate_salary_ck;
+
+AlTER TABLE MatttCandidate ADD CONSTRAINT party_ID_fk FOREIGN KEY (party_ID) REFERENCES MatttParty;
+
+ALTER TABLE MatttCandidate DISABLE CONSTRAINT party_ID_fk;
+
+ALTER TABLE MatttCandidate DROP CONSTRAINT party_ID_fk;

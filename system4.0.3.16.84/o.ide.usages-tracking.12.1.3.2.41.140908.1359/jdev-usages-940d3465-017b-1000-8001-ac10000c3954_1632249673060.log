@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<usages xmlns="http://xmlns.oracle.com/jdeveloper/110000//usages-tracking-data">
+   <hash n="system-info">
+      <value n="build-label" v="MAIN-16.84"/>
+      <value n="dev-build" v="false"/>
+      <value n="guid" v="940d3465-017b-1000-8001-ac10000c3954"/>
+      <value n="jdk-version" v="1.7.0_55"/>
+      <value n="operating-system" v="Windows 8"/>
+      <value n="product-edition"/>
+      <value n="product-name" v="Oracle SQL Developer"/>
+      <value n="product-version" v="4.0.3.16.84"/>
+      <value n="session-end-time" v="1632249673059"/>
+      <value n="session-id" v="1632236513808"/>
+      <value n="session-start-time" v="1632236513808"/>
+      <value n="user-role"/>
+   </hash>
+   <hash n="usage-data">
+      <list n="activities">
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.ide.model.UnrecognizedTextNode"/>
+            </hash>
+            <value n="event-source" v="oracle.ide.ceditor.CodeEditor"/>
+            <value n="time-stamp" v="1632236515235"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="CREATE_DOCUMENT"/>
+            <hash n="event-properties">
+               <value n="wizard-label" v="SQL File"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.raptor.dialogs.file.NewSqlFile"/>
+            <value n="time-stamp" v="1632236562749"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.ide.db.model.SqlNode"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.worksheet.editor.Worksheet"/>
+            <value n="time-stamp" v="1632236569926"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.ide.db.model.SqlNode"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.worksheet.editor.Worksheet"/>
+            <value n="time-stamp" v="1632237637542"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.ide.db.model.SqlNode"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.worksheet.editor.Worksheet"/>
+            <value n="time-stamp" v="1632237641133"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.ide.db.model.SqlNode"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.worksheet.editor.Worksheet"/>
+            <value n="time-stamp" v="1632237648501"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.ide.db.model.SqlNode"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.worksheet.editor.Worksheet"/>
+            <value n="time-stamp" v="1632237649894"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="CREATE_DOCUMENT"/>
+            <hash n="event-properties">
+               <value n="wizard-label" v="SQL File"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.raptor.dialogs.file.NewSqlFile"/>
+            <value n="time-stamp" v="1632237678390"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.ide.db.model.SqlNode"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.worksheet.editor.Worksheet"/>
+            <value n="time-stamp" v="1632237698409"/>
+         </hash>
+      </list>
+   </hash>
+</usages>

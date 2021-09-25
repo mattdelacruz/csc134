@@ -1,0 +1,16 @@
+create Table Personality (
+  personality_id number PRIMARY KEY,
+  personality_desc varchar(20)
+
+);
+
+create Table Person (
+  person_id number,
+  person_desc varchar(20),
+  personality_id_fk number references Personality  
+  --it already knows where to reference as long as the primary key is defined
+);
+
+
+
+

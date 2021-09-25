@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<client-settings class="java.util.HashMap" xmlns="http://xmlns.oracle.com/jdeveloper/110000/client-preferences">
+   <Item>
+      <Key>editors-options</Key>
+      <Value class="oracle.ide.editor.EditorsOptions">
+         <editorsData/>
+         <lruFiles>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.ide.ceditor.CodeEditorAddin</editor>
+               <explicit>false</explicit>
+               <nodeClass>oracle.ide.model.UnrecognizedTextNode</nodeClass>
+               <nodeURL path="../../notesCH3sql"/>
+               <projectURL path="../o.sqldeveloper.12.2.0.16.84/projects/IdeConnections#--.jpr"/>
+               <recentTime>0</recentTime>
+               <workspaceURL path="../o.sqldeveloper.12.2.0.16.84/projects/Databases.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.ideimpl.editor.DeclarativeEditorAddin-oracle.dbtools.worksheet.editor.Worksheet</editor>
+               <explicit>false</explicit>
+               <nodeClass>oracle.ide.db.model.SqlNode</nodeClass>
+               <nodeURL path="../../csc133092321sql"/>
+               <projectURL path="../o.sqldeveloper.12.2.0.16.84/projects/IdeConnections#--.jpr"/>
+               <recentTime>0</recentTime>
+               <workspaceURL path="../o.sqldeveloper.12.2.0.16.84/projects/Databases.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.ideimpl.editor.DeclarativeEditorAddin-oracle.dbtools.worksheet.editor.Worksheet</editor>
+               <explicit>false</explicit>
+               <nodeClass>oracle.ide.db.model.SqlNode</nodeClass>
+               <nodeURL path="../../../../../csc134/--.sql"/>
+               <projectURL/>
+               <recentTime>0</recentTime>
+               <workspaceURL path="../o.sqldeveloper.12.2.0.16.84/projects/Databases.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.ideimpl.editor.DeclarativeEditorAddin-oracle.dbtools.worksheet.editor.Worksheet</editor>
+               <explicit>false</explicit>
+               <nodeClass>oracle.ide.db.model.SqlNode</nodeClass>
+               <nodeURL path="../../groupConstraint"/>
+               <projectURL path="../o.sqldeveloper.12.2.0.16.84/projects/IdeConnections#--.jpr"/>
+               <recentTime>0</recentTime>
+               <workspaceURL path="../o.sqldeveloper.12.2.0.16.84/projects/Databases.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.ide.ceditor.CodeEditorAddin</editor>
+               <explicit>false</explicit>
+               <nodeClass>oracle.ide.model.UnrecognizedTextNode</nodeClass>
+               <nodeURL path="../../groupConstraintsql"/>
+               <projectURL path="../o.sqldeveloper.12.2.0.16.84/projects/IdeConnections#--.jpr"/>
+               <recentTime>0</recentTime>
+               <workspaceURL path="../o.sqldeveloper.12.2.0.16.84/projects/Databases.jws"/>
+            </Item>
+            <Item class="oracle.ide.editor.RecentFile">
+               <editor>oracle.ideimpl.editor.DeclarativeEditorAddin-oracle.dbtools.worksheet.editor.Worksheet</editor>
+               <explicit>false</explicit>
+               <nodeClass>oracle.ide.db.model.SqlNode</nodeClass>
+               <nodeURL path="../../groupCreatesql"/>
+               <projectURL path="../o.sqldeveloper.12.2.0.16.84/projects/IdeConnections#--.jpr"/>
+               <recentTime>0</recentTime>
+               <workspaceURL path="../o.sqldeveloper.12.2.0.16.84/projects/Databases.jws"/>
+            </Item>
+         </lruFiles>
+         <recentFilesShowAll>false</recentFilesShowAll>
+         <recentFilesShowClosedOnly>true</recentFilesShowClosedOnly>
+      </Value>
+   </Item>
+</client-settings>

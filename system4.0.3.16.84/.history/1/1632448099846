@@ -1,0 +1,43 @@
+--group Create
+CREATE TABLE Candidate (
+  fname   varchar(20),
+  lname   varchar(20),
+  DOB     date,
+  salary  number
+);
+
+CREATE TABLE Party (
+  partyDesc varchar(20)
+);
+
+ALTER TABLE Candidate DROP(DOB);
+
+ALTER TABLE Candidate ADD(DOB);
+
+ALTER TABLE Candidate ADD(candidate_ID, PRIMARY KEY);
+
+ALTER TABLE Party ADD(party_ID, PRIMARY KEY);
+
+ALTER TABLE Candidate ADD PRIMARY KEY(fname, lname);
+
+DROP TABLE Party;
+
+CREATE TABLE Party (
+  party_ID number PRIMARY KEY,
+  party_DESC varchar(20)
+  
+);
+
+
+
+-- group Constraint
+ALTER TABLE Candidate ADD CONSTRAINT candidate_salary_ck CHECK(salary BETWEEN 10000 AND 50000);
+
+ALTER TABLE Party MODIFY party_DESC NOT NULL;
+
+ALTER TABLE Candidate DISABLE CONSTRAINT candidate_salary_ck;
+
+ALTER TABLE Candidate ADD FOREIGN KEY psrty_id_fk FOREIGN KEY(party_ID) REFERENCES Party;
+
+
+

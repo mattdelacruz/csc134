@@ -1,0 +1,35 @@
+--group Create
+CREATE TABLE Candidate (
+  fname   varchar(20),
+  lname   varchar(20),
+  DOB     date,
+  salary  number
+);
+
+CREATE TABLE Party (
+  partyDesc varchar(20)
+);
+
+ALTER TABLE Candidate DROP(DOB);
+
+ALTER TABLE Candidate ADD(DOB);
+
+ALTER TABLE Candidate ADD(candidate_ID, PRIMARY KEY);
+
+ALTER TABLE Party ADD(party_ID, PRIMARY KEY);
+
+ALTER TABLE Candidate ADD PRIMARY KEY(fname, lname);
+
+DROP TABLE Party;
+
+CREATE TABLE Party (
+  party_ID number PRIMARY KEY,
+  party_DESC varchar(20)
+  
+);
+
+
+
+
+
+

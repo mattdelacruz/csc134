@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<usages xmlns="http://xmlns.oracle.com/jdeveloper/110000//usages-tracking-data">
+   <hash n="system-info">
+      <value n="build-label" v="MAIN-16.84"/>
+      <value n="dev-build" v="false"/>
+      <value n="guid" v="940d3465-017b-1000-8001-ac10000c3954"/>
+      <value n="jdk-version" v="1.7.0_55"/>
+      <value n="operating-system" v="Windows 8"/>
+      <value n="product-edition"/>
+      <value n="product-name" v="Oracle SQL Developer"/>
+      <value n="product-version" v="4.0.3.16.84"/>
+      <value n="session-end-time" v="1630434874826"/>
+      <value n="session-id" v="1630432497819"/>
+      <value n="session-start-time" v="1630432497819"/>
+      <value n="user-role"/>
+   </hash>
+   <hash n="usage-data">
+      <list n="activities">
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.jdevimpl.help.StartPageNode"/>
+            </hash>
+            <value n="event-source" v="oracle.jdevimpl.help.StartPageEditor"/>
+            <value n="time-stamp" v="1630432498430"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="CREATE_CONNECTION"/>
+            <hash n="event-properties">
+               <value n="db-type" v="oraJDBC"/>
+            </hash>
+            <value n="event-source" v="DB"/>
+            <value n="time-stamp" v="1630432943619"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.ide.db.model.SqlNode"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.worksheet.editor.Worksheet"/>
+            <value n="time-stamp" v="1630432965210"/>
+         </hash>
+         <hash>
+            <value n="event-id" v="ACTIVATE_EDITOR"/>
+            <hash n="event-properties">
+               <value n="node-class" v="oracle.ide.db.model.SqlNode"/>
+            </hash>
+            <value n="event-source" v="oracle.dbtools.worksheet.editor.Worksheet"/>
+            <value n="time-stamp" v="1630433624720"/>
+         </hash>
+      </list>
+   </hash>
+</usages>

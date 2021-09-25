@@ -1,0 +1,39 @@
+<LayoutInfo>
+   <clientLayoutData>
+      <global>
+         <view-data ID="LogWindow.Log" ClosedByUser="false"/>
+         <view-data ID="ReportNavigatorWindow.DatabaseReports" ReportsDummy="true"/>
+      </global>
+      <Editing layout-name="Editing">
+         <view-data pageSelection="" USE_LARGE_ICONS="true" ID="PALETTEFACTORY.PALETTE"/>
+      </Editing>
+   </clientLayoutData>
+   <knownDockableFactories>
+      <InspectorWindow/>
+      <ComponentPalette/>
+      <PALETTEFACTORY/>
+      <DBMS_OUTPUT_DOCKABLE_VIEW_TYPE/>
+      <Systemoracle_ideimpl_editor_RecentFiles_VIEW_TYPE/>
+      <RunManagerWindow/>
+      <RECENT_OBJECTS_VIEW_TYPE/>
+      <OWA_OUTPUT_DOCKABLE_VIEW_TYPE/>
+      <VHVPropertiesDockable/>
+      <ExplorerWindow/>
+      <UnifiedThumbnailDockable/>
+      <LogWindow/>
+      <SQLHISTORY_VIEW_TYPE/>
+      <oracle-jdeveloper-git-PendingChangesWindow/>
+      <VersioningNavigatorWindow/>
+      <Applicationoracle_ideimpl_editor_RecentFiles_VIEW_TYPE/>
+      <Debugger/>
+      <DatabaseNavigatorWindow/>
+      <BOOKMARKS_VIEW_TYPE/>
+      <ReportNavigatorWindow/>
+      <OUTLINE_VIEW_TYPE/>
+      <SEARCH_VIEW_TYPE/>
+   </knownDockableFactories>
+   <knowTriggeredLayouts>
+      <Editing/>
+   </knowTriggeredLayouts>
+   <visibilityLayouts/>
+</LayoutInfo>

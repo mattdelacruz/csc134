@@ -1,0 +1,9 @@
+home=1410213214000
+fcpbridge=1410213566000
+ide=1410213202000
+sqldeveloper=0
+dropins=0
+user=1410213566000
+crc=7
+locale=en_US
+branding=jdev

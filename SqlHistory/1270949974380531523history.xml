@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select * from             dictionary;]]></sql>
+		<connection><![CDATA[--]]></connection>
+		<timestamp><![CDATA[1630433049803]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.116]]></execTime>
+	</historyItem>
+</history>

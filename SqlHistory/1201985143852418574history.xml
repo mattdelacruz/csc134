@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/C:/Users/Matt/AppData/Roaming/SQL Developer/groupCreatesql]]></sql>
+		<connection><![CDATA[--]]></connection>
+		<timestamp><![CDATA[1632464575502]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[31]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

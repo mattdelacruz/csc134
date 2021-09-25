@@ -1,0 +1,27 @@
+CREATE TABLE Party (
+  party_ID number PRIMARY KEY,
+  party_DESC varchar(20)
+  
+);
+
+CREATE TABLE Candidate (
+  fname   varchar(20),
+  lname   varchar(20),
+  DOB     date,
+  salary  number
+);
+
+
+
+-- group Constraint
+ALTER TABLE Candidate ADD CONSTRAINT candidate_salary_ck CHECK(salary BETWEEN 10000 AND 50000);
+
+ALTER TABLE Party MODIFY party_DESC NOT NULL;
+
+ALTER TABLE Candidate DISABLE CONSTRAINT candidate_salary_ck;
+
+AlTER TABLE Candidate ADD CONSTRAINT party_ID_fk FOREIGN KEY (party_ID) REFERENCES Party;
+
+ALTER TABLE Candidate DISABLE CONSTRAINT party_ID_fk;
+
+ALTER TABLE Candidate DROP CONSTRAINT party_ID_fk;
